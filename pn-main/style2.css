@@ -1,0 +1,109 @@
+nav{
+    position: sticky;
+    background-color: white;
+    height: 80px;
+    margin: auto;
+    justify-content: center;
+    
+    
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    max-width: 1535px;
+    
+}
+.nav-main-first{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 15px;
+}
+.nav-main-first a{
+    display: flex;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.make {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1535px;
+    padding: 60px;
+    gap: 20px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sign{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+  }
+  .nav-right{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .log{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+  }
+  .kil{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .vid1{
+    width: 100%;
+
+  }
+  .mak1{
+    font-family:apercu-pro ;
+    font-size: 80px;
+  }
+  .get{
+    font-family: apercu-pro;
+    font-size: 28px;
+    padding-bottom: 50px;
+  }
+  .make{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .content{
+    width: 90%;
+  }
+  .ref{
+    font-family:apercu-pro ;
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .by{
+    position: relative;
+    
+  }
+  .looks{
+    font-family:apercu-pro ;
+    font-size: 48px;
+  }
