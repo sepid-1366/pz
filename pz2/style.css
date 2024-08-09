@@ -274,9 +274,10 @@ html{
     width: 40%;
     display: flex;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 130px;
     margin: auto;
     text-align: center;
+    max-width: 1535;
     
     
   }
