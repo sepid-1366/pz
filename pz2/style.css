@@ -106,16 +106,21 @@ html{
     flex-direction: column;
     align-items: center;
     height: 100;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 400;
 
 
   }
   .dan {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    max-width: 1535;
     padding-top: 50px;
+    gap:90px;
+    padding-bottom: 110px;
   }
   .cantainer2 {
     display: flex;
@@ -129,8 +134,9 @@ html{
     justify-content: space-between;
     align-items: center;
     gap: 150px;
+    padding-bottom: 100px;
    
-    padding: 80px 0px;
+    
   }
   .btn2{ background-color: black;
     color: white;
@@ -160,17 +166,27 @@ html{
     margin: auto;
     max-width: 1535px;
     gap: 20px;
+    padding-left: 50px;
+    padding-bottom: 100px;
   }
   .cantainer41 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 900px;
-    gap: 20px;
+    gap: 30px;
   }
   .cant4 {
     position: relative;
     top: 80px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .cant{
+    display: flex;
+    flex-direction: column;
+    gap:140px;
+    
   }
   .aks1,
   .aks2,
@@ -178,7 +194,7 @@ html{
     padding: 32px;
     width: 256px;
     height: 256px;
-    background-color: rgb(207, 207, 206);
+    background-color: #f7f7f6;
     border-radius: 20px;
   }
   .cantainer5 {
@@ -206,7 +222,7 @@ html{
   }
   .list {
     padding: 24px;
-    background-color: rgb(173, 172, 172);
+    background-color:#f7f7f6;
     width: 33%;
     height: 190;
     color: black;
@@ -228,7 +244,7 @@ html{
  
   .list2title {
     padding-bottom: 16px;
-    font-size: 24px;
+    font-size: 20px;
   }
   .llink {
     padding: 4px 0;
