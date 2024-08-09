@@ -1,0 +1,350 @@
+@font-face {
+  font-family: apercu-pro;
+  src: url(font/apercu_bold_italic_pro.otf);
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: apercu-pro;
+  src: url(font/apercu_bold_pro.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: apercu-pro;
+  src: url(font/apercu_medium_italic_pro.otf);
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: apercu-pro;
+  src: url(font/apercu_medium_pro.otf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: apercu-pro;
+  src: url(font/apercu_regular_italic_pro.otf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: apercu-pro;
+  src: url(font/apercu_regular_pro.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+html{
+  font-family: apercu-pro;
+}
+  .container {
+    padding: 0 15px;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  i {
+    padding: 0 4px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .cantainer1,
+  .but {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25;
+    margin: auto;
+  }
+  .but {
+    position: relative;
+    left: 300px;
+  }
+  .cantainer1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 350;
+  }
+  .btn {
+    background-color: white;
+    color: black;
+  }
+  .btn:hover {
+    color: gray;
+  }
+  .sin,
+  .btn2 {
+    background-color: black;
+    color: white;
+  }
+  .sin:hover,
+  .btn2:hover {
+    color: gray;
+  }
+  
+  .rat1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100;
+    padding: 50px;
+
+
+  }
+  .dan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .cantainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cantainer21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+   
+    padding: 80px 0px;
+  }
+  .btn2{ background-color: black;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 10px;
+    
+    
+
+  }
+  .cantainer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cantainer31 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cantainer4 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: auto;
+    max-width: 1535px;
+    gap: 20px;
+  }
+  .cantainer41 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 900px;
+    gap: 20px;
+  }
+  .cant4 {
+    position: relative;
+    top: 80px;
+  }
+  .aks1,
+  .aks2,
+  .aks3 {
+    padding: 32px;
+    width: 256px;
+    height: 256px;
+    background-color: rgb(207, 207, 206);
+    border-radius: 20px;
+  }
+  .cantainer5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 64px;
+    padding-top: 64px;
+  }
+  .cantainer5 h2 {
+    font-size: 48px;
+    margin: 0;
+    padding-bottom: 12px;
+    font-weight: 500;
+  }
+  .cantainer6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+  }
+  .list {
+    padding: 24px;
+    background-color: rgb(173, 172, 172);
+    width: 33%;
+    height: 190;
+    color: black;
+    border-radius: 24px;
+    margin-bottom: 24px;
+  }
+  .list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .list:hover {
+    background-color: black;
+    color: white;
+  }
+  .list:hover a{
+    color: white;
+  }
+ 
+  .list2title {
+    padding-bottom: 16px;
+    font-size: 24px;
+  }
+  .llink {
+    padding: 4px 0;
+    display: block;
+    color: black;
+  }
+  .llink:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .cantainer7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .onvan {
+    color: black;
+  }
+  .cantainer8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+  }
+  .cantainer9{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: auto;
+    text-align: center;
+    
+    
+  }
+  .cantainer9 > div{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+  }
+  .cantainer91 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  .textp {
+    width: 20%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .top-header-section {
+    background-color: #131313;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  .top-header-section {
+    text-align: center;
+    background-color: #131313;
+    color: #cccccc;
+    padding: 28px 0px;
+    font-size: clamp(0.875rem, 0.7876rem + 0.2427vw, 1rem);
+  }
+  .top-header-section > div > p > i {
+    padding: 0px 6px;
+    color: #ffffff;
+  }
+
+ 
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .list1,
+    .list2,
+    .list3,
+    .list4,
+    .list5,
+    .list6 {
+      width: 49%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .list1,
+    .list2,
+    .list3,
+    .list4,
+    .list5,
+    .list6 {
+      width: 100%;
+    }
+  }
+  .cantainera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+  }
+  #payin {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    top: 30px;
+  }
+  .cantainerb {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding-top: 70px;
+  }
+  .sutun {
+    width: 7%;
+  }
