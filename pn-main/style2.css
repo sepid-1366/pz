@@ -116,3 +116,32 @@ nav{
   .coleect{
     padding-bottom: 30px;
   }
+  .menu{
+    display: none;
+  }
+  @media screen and (min-width:768px) and (max-width:1024px) {
+
+    .list1,
+  .list2,
+  .list3,
+  .list4,
+  .list5,
+  .list6{ width: 49%;}
+    
+  }
+  @media screen and (max-width:768px){
+    .list1,
+  .list2,
+  .list3,
+  .list4,
+  .list5,
+  .list6{ width: 100%;} 
+  }
+  @media screen and (max-width:768px) {
+    .nav-main-first , .nav-right{
+      display: none;
+    }
+    .menu{
+      display: block;
+    }
+  }
