@@ -278,12 +278,13 @@ html{
     margin: auto;
     text-align: center;
     max-width: 1535;
+    padding-bottom: 100px;
     
     
   }
   .cantainer9 > div{
     display: flex;
-    width: 33%;
+    width: 40%;
     flex-direction: column;
   }
   .cantainer91 {
@@ -295,6 +296,9 @@ html{
   }
   .textp {
     width: 20%;
+    font-size: 20px;
+    align-items: center;
+    padding-bottom: 20px;
   }
   .container-fluid {
     width: 100%;
@@ -347,12 +351,24 @@ html{
     background-color: black;
     color: white;
   }
-  #payin {
+  .payin1,.payin2 {
     background-color: white;
-    border-radius: 5px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 10px 16px;
     position: relative;
     top: 30px;
+    font-size: 16px;
+    gap: 10px;
+    border: 1px solid white;
+
+  }
+  .payin1{
+    padding: 10px 38px;
+  }
+  .payin2{
+    background-color: black;
+    color: white;
+    border-color: white;
   }
   .cantainerb {
     display: flex;

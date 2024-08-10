@@ -43,6 +43,7 @@ nav{
     height: 80px;
     margin: auto;
     justify-content: center;
+    top:0
     
     
     
@@ -201,6 +202,21 @@ nav{
 .adad{
   font-size: 80px;
         font-weight: 400;
+}
+.darsad{
+  font-size: 24px;
+  font-weight: 400;
+}
+.brek{
+  font-size: 64px;
+  text-align: center;
+}
+.linkp{
+  gap: 25px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 90px;
+
 }
   
   .menu{
