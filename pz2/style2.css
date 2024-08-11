@@ -47,6 +47,8 @@ nav{
     
     
     
+    
+    
 }
 .navigation{
     display: flex;
@@ -210,6 +212,8 @@ nav{
 .brek{
   font-size: 64px;
   text-align: center;
+  padding-top: 300px;
+  
 }
 .linkp{
   gap: 25px;
